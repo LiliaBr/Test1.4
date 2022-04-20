@@ -1,0 +1,220 @@
+@import "vars";
+@import "normalize";
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("/assets/font/TTLakes-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("/assets/font/TTLakes-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: url("/assets/font/TTLakes-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+    font-family: "TT Lakes";
+    background-color: $color_primary;
+    height: 100%;
+  
+}
+main {
+    width: 320px;
+    box-shadow: 0 -10px 15px 10px rgba(0,0,0,0.25);
+    padding: 24px 24px 0 24px;
+    height: 100%;
+    position: fixed;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+main::-webkit-scrollbar {
+    width: 0px;
+    background: rgba(255, 255, 255, 0);
+  }
+.widget {
+
+    // .widget__container 
+
+    &__container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 46px;
+    }
+    // .widget__button-container
+
+    &__button-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    // .widget__button-container--right
+
+    &__button-container--right {
+    }
+
+    // .widget__logo
+
+    &__logo {
+        margin-left: 16px;
+    }
+    
+    // .widget__button-container--right
+
+    &__button-container--left {
+        margin-left: auto;
+    }
+    // .widget__menu
+
+    &__menu {
+        margin-bottom: 260px;
+    }
+
+    // .widget__menu-container
+
+    &__menu-container {
+        list-style: none;
+    }
+
+    // .widget__menu-container--item
+
+    &__menu-container--item {
+        padding: 16px 0 16px 0;
+        position: relative;
+    }
+    &__menu-container--item:hover {
+        color: $color_6;
+
+    }
+    &__menu-container--item:hover::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: -25px;
+        transform: translateY(-50%);
+        height: 40px;
+        width: 4px;
+        background-color: $color_3;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    // .widget__info-container
+
+    &__info-container {
+    }
+    // .widget__mail-container
+
+    &__mail-container {
+        margin-bottom: 12px;
+    }
+
+    // .widget__phone-container
+
+    &__phone-container {
+        font-style: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    // .widget__lang-menu
+
+    &__lang-menu {
+    }
+
+    // .widget__lang-menu--container
+
+    &__lang-menu--container {
+        display: flex;
+    }
+
+    // .widget__lang-menu--item
+
+    &__lang-menu--item {
+        margin-right: 8px;
+    }
+    &__lang-menu--item:hover {
+        color: $color_6;
+    }
+}
+.button {
+
+    // .button__item
+
+    &__item {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $color_2;
+        text-align: center;
+    }
+
+    // .button__item--exit
+
+    &__item--exit {
+        background-image: url("../assets/icons/icon__cross.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    // .button__item--path
+
+    &__item--path {
+        background-image: url("../assets/icons/icon__path.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    // .button__item--search
+
+    &__item--search {
+        background-image: url("../assets/icons/icon__search1.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    // .button__item--phone
+
+    &__item--phone {
+        background-image: url("../assets/icons/icon__phone.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    // .button__item--chat
+
+    &__item--chat {
+        background-image: url("../assets/icons/icon__chat.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    &__item--me16 {
+        margin-right: 16px;
+    }
+    // .button__item--user
+
+    &__item--user {
+        background-image: url("../assets/icons/icon__user.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+}
+
+.text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
