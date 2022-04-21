@@ -165,19 +165,19 @@ template {
 }
 @font-face {
   font-family: TT Lakes;
-  src: url(/TTLakes-Regular.e5165466.ttf) format("truetype");
+  src: url(TTLakes-Regular.e5165466.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: TT Lakes;
-  src: url(/TTLakes-Medium.3d1ab527.ttf) format("truetype");
+  src: url(TTLakes-Medium.3d1ab527.ttf) format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: TT Lakes;
-  src: url(/TTLakes-Bold.7f94a2bb.ttf) format("truetype");
+  src: url(TTLakes-Bold.7f94a2bb.ttf) format("truetype");
   font-weight: 700;
   font-style: normal;
 }
@@ -269,7 +269,7 @@ main::-webkit-scrollbar {
   text-align: center;
 }
 .button__item--exit {
-  background-image: url(/icon__cross.0e0a8835.svg);
+  background-image: url(icon__cross.0e0a8835.svg);
 }
 .button__item--exit,
 .button__item--path {
@@ -277,10 +277,10 @@ main::-webkit-scrollbar {
   background-position: 50%;
 }
 .button__item--path {
-  background-image: url(/icon__path.57b07fd5.svg);
+  background-image: url(icon__path.57b07fd5.svg);
 }
 .button__item--search {
-  background-image: url(/icon__search1.b08e6390.svg);
+  background-image: url(icon__search1.b08e6390.svg);
 }
 .button__item--phone,
 .button__item--search {
@@ -288,10 +288,10 @@ main::-webkit-scrollbar {
   background-position: 50%;
 }
 .button__item--phone {
-  background-image: url(/icon__phone.1d35758d.svg);
+  background-image: url(icon__phone.1d35758d.svg);
 }
 .button__item--chat {
-  background-image: url(/icon__chat.8c6428f0.svg);
+  background-image: url(icon__chat.8c6428f0.svg);
   background-repeat: no-repeat;
   background-position: 50%;
 }
@@ -299,7 +299,7 @@ main::-webkit-scrollbar {
   margin-right: 16px;
 }
 .button__item--user {
-  background-image: url(/icon__user.a97a49c5.svg);
+  background-image: url(icon__user.a97a49c5.svg);
   background-repeat: no-repeat;
   background-position: 50%;
 }
